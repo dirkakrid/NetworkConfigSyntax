@@ -83,6 +83,12 @@
 			<key>name</key>
 			<string>support.class.network</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>(http)</string>
+			<key>name</key>
+			<string>support.class.network</string>
+		</dict>
 
 		<!-- SUB CONFIGS -->
 
@@ -125,6 +131,12 @@
 		<dict>
 			<key>match</key>
 			<string>service instance|bridge-domain</string>
+			<key>name</key>
+			<string>constant.character.escape.network</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?<=enab)\w+</string>
 			<key>name</key>
 			<string>constant.character.escape.network</string>
 		</dict>
