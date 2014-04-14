@@ -85,7 +85,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(http)</string>
+			<string>http</string>
 			<key>name</key>
 			<string>support.class.network</string>
 		</dict>
@@ -136,13 +136,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?<=enab)\w+</string>
+			<string>enab[A-Za-z]+</string>
 			<key>name</key>
 			<string>constant.character.escape.network</string>
 		</dict>
 
 		<!-- Misc -->
-
 		<dict>
 			<key>match</key>
 			<string>description|ldp|key|banner</string>
