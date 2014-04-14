@@ -13,7 +13,7 @@ Sublime Text Syntax Definitition for Cisco/Arista/HP/Dell router/switch/firewall
 ## Usage
 Once installed navigate to View->Syntax->Network to apply the Network syntax to the document.
 
-This syntax definition will automatically be applied to .txt files and .cfg files.
+This syntax definition will automatically be applied to .cfg files.
 
 ## Customizing
 Once Network syntax is turned on you can then try different color schemes by going to Preferences -> Color Schemes.
