@@ -1,1 +1,44 @@
-Cisco\ Definitions.tmLanguage.cache
+# Ignore vim undo files
+.vim/undo
+
+# ignore swap files
+*.swp
+
+# Compiled Python files
+*.pyc
+#
+# # Folder view configuration files
+.DS_Store
+Desktop.ini
+#
+# # Thumbnail cache files
+._*
+Thumbs.db
+#
+# # Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# ignore pydev project files
+*.project
+*.pydevproject
+
+# ignore sublime project files
+*.sublime-project
+*.sublime-workspace
+
+# Constantly changing files
+.log
+/log/*.txt
+/log/*.log
+/Log/*.txt
+/Log/*.log
+/log
+/Log
+
+/logs/*.txt
+/logs/*.cfg
+/Logs/*.txt
+/Logs/*.cfg
+/logs
+/Logs
