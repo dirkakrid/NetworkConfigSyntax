@@ -109,7 +109,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>[^vlan]\s*(add|remove)|peer-gateway|auto-recovery</string>
+			<string>peer-gateway|auto-recovery</string>
 			<key>name</key>
 			<string>constant.character.escape.network</string>
 		</dict>
@@ -152,6 +152,12 @@
 		<dict>
 			<key>match</key>
 			<string>snmp-server|snmp|rmon|ntp|logging</string>
+			<key>name</key>
+			<string>string.unquoted.network</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>aggregate-address</string>
 			<key>name</key>
 			<string>string.unquoted.network</string>
 		</dict>
