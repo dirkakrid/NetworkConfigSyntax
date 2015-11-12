@@ -1,87 +1,87 @@
-{ "name": "network",
-  "scopeName": "text.network",
-  "fileTypes": ["cfg"],
+{ "name": "Cisco",
+  "scopeName": "text.Cisco",
+  "fileTypes": ["ios", "cisco", "ioscfg", "iostxt"],
   "patterns": [
 
   	{ "match": "ip prefix-list",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 	{ "match": "router",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 	{ "match": "redistribute",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 	{ "match": "route-map",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 	{ "match": "address-family",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 	{ "match": "neighbor",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 
 	{ "match": "^\\s*no ",
-	  "name": "invalid.illegal.network"
+	  "name": "invalid.illegal.Cisco"
 	},
 
 	{ "match": "access-list",
-	  "name": "support.function.network"
+	  "name": "support.function.Cisco"
 	},
 
 	{ "match": "key chain",
-	  "name": "support.function.network"
+	  "name": "support.function.Cisco"
 	},
 
 	{ "match": "crypto ",
-	  "name": "string.unquoted.network"
+	  "name": "string.unquoted.Cisco"
 	},
 	{ "match": "any",
-	  "name": "string.unquoted.network"
+	  "name": "string.unquoted.Cisco"
 	},
 	{ "match": "deny ",
-	  "name": "support.constant.network"
+	  "name": "support.constant.Cisco"
 	},
 
 	{ "match": "permit ",
-	  "name": "constant.character.escape.network"
+	  "name": "constant.character.escape.Cisco"
 	},
 	{ "match": "object-group",
-	  "name": "markup.list.network"
+	  "name": "markup.list.Cisco"
 	},
 	{ "match": "object",
-	  "name": "markup.list.network"
+	  "name": "markup.list.Cisco"
 	},
 
 
 	{ "match": "host",
-	  "name": "markup.list.network"
+	  "name": "markup.list.Cisco"
 	},
 
 	{ "match": "!(.*)",
-	  "name": "comment.network"
+	  "name": "comment.Cisco"
 	},
 
 	{ "match": "static",
-	  "name": "constant.numeric.network"
+	  "name": "constant.numeric.Cisco"
 	},
 
 	{ "match": "tunnel-group",
-	  "name": "support.class.network"
+	  "name": "support.class.Cisco"
 	},
 	
 	{ "match": "crypto",
-	  "name": "support.class.network"
+	  "name": "support.class.Cisco"
 	},
 
 	{
 		"match": "http",
-		"name": "support.class.network"
+		"name": "support.class.Cisco"
 	}
 
 	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+",
-      "name": "constant.network"
+      "name": "constant.Cisco"
     }
 
   
