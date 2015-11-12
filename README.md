@@ -1,4 +1,4 @@
-# Network syntax package for Sublime Text
+# Cisco syntax package for Sublime Text
 
 This syntax highlighting package should work with any "Cisco-IOS Like" configuration files. I will be working on updating it to support Juniper and other configuration file formats.
 
@@ -8,12 +8,12 @@ This syntax highlighting package should work with any "Cisco-IOS Like" configura
 
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
 
-    git clone git://github.com/IPyandy/sublNetworkSyntax.git
+    git clone git://github.com/yandy-io/SublimeCiscoSyntax.git
 
 ## Usage
-Once installed navigate to View->Syntax->Network to apply the Network syntax to the document.
+Once installed navigate to View->Syntax->Cisco to apply the Network syntax to the document.
 
-This syntax definition will automatically be applied to .cfg files.
+This syntax definition will automatically be applied to .ios, .cisco, .ioscfg, and .iostxt files.
 
 ## Customizing
 Once Network syntax is turned on you can then try different color schemes by going to Preferences -> Color Schemes.
