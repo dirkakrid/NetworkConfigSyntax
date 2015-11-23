@@ -5,7 +5,6 @@
 	<key>fileTypes</key>
 	<array>
 		<string>ios</string>
-		<string>cisco</string>
 		<string>ioscfg</string>
 		<string>iostxt</string>
 	</array>
@@ -13,263 +12,286 @@
 	<string>Cisco</string>
 	<key>patterns</key>
 	<array>
-		<!-- Custom fields by Yandy Ramire @IPyandy-->
+		<!-- FIRST LEVEL CONFIG -->
 		<dict>
 			<key>match</key>
-			<string>mac-list|key chain|^udld|^service|^boot|^username|^clock|mpls</string>
+			<string>ip</string>
 			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>ip prefix-list|vrf|^vdc|^vpc|</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>router</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>hostname</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>redistribute</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>route-map</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>address-family</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>ip pim|ip igmp</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>match</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>^interface</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>tacacs-server|class-map|policy-map</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>spanning-tree|^feature|^vlan|tacacs|aaa|otv-isis|errdisable|otv</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>switchport|encapsulation</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>http</string>
-			<key>name</key>
-			<string>support.class.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>prefix-list|udld|key-chain</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>prefix-list|site-vlan|allocate|[^(vpc)]domain</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>peer-gateway|auto-recovery</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>ip address|neighbor|delay|</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>channel-group|mtu|bfd|match|metric</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>police|line|[^(port)]type|</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>service instance|bridge-domain</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>enab[A-Za-z]+</string>
-			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>description|ldp|key|banner</string>
-			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>support.class.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>snmp-server|snmp|rmon|ntp|logging</string>
 			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>mac-list|key chain|^udld|^service|^boot|^username|^clock|mpls</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>ip prefix-list|vrf|^vdc|^vpc</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>router</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>hostname</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>redistribute</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>route-map</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>address-family</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>ip pim|ip igmp</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>match</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^interface</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>tacacs-server|class-map|policy-map</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>spanning-tree|^feature|^vlan|^tacacs|aaa|otv-isis|errdisable|otv</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>encapsulation</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>http</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>prefix-list|udld|key-chain</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>prefix-list|site-vlan|allocate|[^(vpc)]domain</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>peer-gateway|auto-recovery</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>neighbor|delay</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>channel-group|mtu|bfd|match|metric</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>police|line|[^(port)]type</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>service instance|bridge-domain</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>enab[A-Za-z]+</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>ldp|key|banner</string>
+			<key>name</key>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>aggregate-address</string>
 			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>eigrp|ospf|bgp|lisp</string>
 			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>domain-name</string>
 			<key>name</key>
-			<string>support.class.Cisco</string>
+			<string>support.class.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>isis</string>
 			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^\s*no </string>
 			<key>name</key>
-			<string>invalid.illegal.Cisco</string>
+			<string>invalid.illegal.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>access-list</string>
 			<key>name</key>
-			<string>support.function.Cisco</string>
+			<string>support.function.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>crypto </string>
 			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>any</string>
 			<key>name</key>
-			<string>string.unquoted.Cisco</string>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>deny </string>
 			<key>name</key>
-			<string>support.constant.Cisco</string>
+			<string>support.constant.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>permit </string>
 			<key>name</key>
-			<string>constant.character.escape.Cisco</string>
+			<string>constant.character.escape.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>object-group</string>
 			<key>name</key>
-			<string>markup.list.Cisco</string>
+			<string>markup.list.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>object</string>
 			<key>name</key>
-			<string>markup.list.Cisco</string>
+			<string>markup.list.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>host</string>
 			<key>name</key>
-			<string>markup.list.Cisco</string>
+			<string>markup.list.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>!(.*)</string>
 			<key>name</key>
-			<string>comment.Cisco</string>
+			<string>comment.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>static</string>
 			<key>name</key>
-			<string>constant.numeric.Cisco</string>
+			<string>constant.numeric.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>tunnel-group</string>
 			<key>name</key>
-			<string>support.class.Cisco</string>
+			<string>support.class.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>crypto</string>
 			<key>name</key>
-			<string>support.class.Cisco</string>
+			<string>support.class.cisco</string>
+		</dict>
+
+		<!-- SECOND LEVEL CONFIG -->
+		<dict>
+			<key>match</key>
+			<string>ip address</string>
+			<key>name</key>
+			<string>string.unquoted.cisco</string>
 		</dict>
 		<dict>
 			<key>match</key>
-                        <string>(\d{1,3}\.){3}(\d{1,3}){1}</string>
+			<string>descr?i?p?t?i?o?n?|switchport</string>
 			<key>name</key>
-			<string>support.class.Cisco</string>
+			<string>string.unquoted.cisco</string>
 		</dict>
-	</array>
+
+		<!-- IP ADDRESSING -->
+		<dict>
+			<key>match</key>
+        	<string>(\d{1,3}\.){3}(\d{1,3}){1}</string>
+			<key>name</key>
+			<string>constant.character.escape.cisco</string>
+		</dict>
+
 	<key>scopeName</key>
-	<string>text.Cisco</string>
+	<string>text.cisco</string>
 	<key>uuid</key>
 	<string>f3ba50f0-2bad-48b7-9509-f6d72e353ddb</string>
+	</array>
 </dict>
 </plist>

@@ -22,4 +22,6 @@ If you wish to customize this even further for your own needs navigate to the Ci
 
 ### CREDITS
 
-This is a modified version of the original, which is <a href="https://github.com/tunnelsup/sublime-cisco-syntax" target="_blank">here</a>, credit to tunnelsup for the amazing work.
+This is a Cisco modified version of the original, which is <a href="https://github.com/tunnelsup/sublime-cisco-syntax" target="_blank">here</a>, credit to tunnelsup for the amazing work.
+
+The Junos original can be found <a href="https://github.com/nprintz/junos-sublime-pkg" target="_blank">here</a>, by nprintz.
