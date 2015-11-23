@@ -102,7 +102,6 @@
             <key>match</key>
             <string>(?&lt;=^|\s)(policy-options|protocols|chassis|firewall|applications|multi-chassis|redundant-power-system|version|services|virtual-chassis|event-options|class-of-service|access|accounting-options|diameter|fabric|multicast-snooping-options|switch-options|wlan|smtp|schedulers)(?=[ 
 ;])</string>
-
         </dict>
         <dict>
             <key>comment</key>
