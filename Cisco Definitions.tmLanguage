@@ -61,6 +61,16 @@
 			<key>name</key>
 			<string>string.unquoted.ios</string>
 		</dict>
+
+		<!-- USER DEFINED NAMES -->
+		<dict>
+			<key>comment</key>
+			<string>matches an ip prefix-list name</string>
+			<key>match</key>
+			<string>(?&lt;=ip prefix-list)( [-\w_&lt;&gt;:\./]+)(?=[;]|\b)</string>
+			<key>name</key>
+			<string>constant.numeric.integer.long.octal.ios</string>
+		</dict>
 		
 	</array>
 
