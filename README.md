@@ -1,10 +1,12 @@
 # Network Config Syntax Package for Sublime Text
 
-This syntax highlighting package should work with any "Cisco-IOS Like" configuration files.
+Sublime Text 2/3 Syntax Definitition for Cisco / Junos router/switch/firewall configurations. This package will highlight Cisco configuration and commands within Sublime Text 2/3.
 
-There's updates that need to be done to all syntax files. I also will need to work on more such as Arista (EOS) or Brocode, Dell (Force-10) and others though most of the Cisco like IOS should work fairly well.
+This package contains versions of the originals (READ THE CREDITS SECTION) I just put them into one package.
 
-There will also be further updates as to match <VARIABLE NAMES> such as prefix-list names and others.
+The Cisco package has been updated and enhanced from it's original (2+ years without an update)
+
+If you'd still like to install independently please visit the original packages below in the Credits section.
 
 ### Installing
 
