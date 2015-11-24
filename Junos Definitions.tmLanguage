@@ -7,6 +7,7 @@
         <string>junos</string>
         <string>jcfg</string>
         <string>jtxt</string>
+        <string>juniper</string>
     </array>
     <key>name</key>
     <string>Junos</string>

@@ -1,6 +1,6 @@
 { "name": "IOS",
   "scopeName": "text.ios",
-  "fileTypes": ["ios", "ioscfg", "iostxt"],
+  "fileTypes": ["ios", "ioscfg", "iostxt", "cisco"],
   "patterns": [
 
   	{ "match": "ip prefix-list",

@@ -1,6 +1,6 @@
 { "name": "Junos",
   "scopeName": "text.junos",
-  "fileTypes": ["junos", "jcfg", "jtxt"],
+  "fileTypes": ["junos", "jcfg", "jtxt", "juniper"],
   "patterns": [
     {
       "comment": "Block Comment or annotation",

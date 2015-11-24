@@ -7,6 +7,7 @@
 		<string>ios</string>
 		<string>ioscfg</string>
 		<string>iostxt</string>
+		<string>cisco</string>
 	</array>
 	<key>name</key>
 	<string>IOS</string>
