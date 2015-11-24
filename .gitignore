@@ -23,6 +23,9 @@ Thumbs.db
 *.project
 *.pydevproject
 
+# ignore rsync file
+*.rsyncToPkgs
+
 # ignore sublime project files
 *.sublime-project
 *.sublime-workspace

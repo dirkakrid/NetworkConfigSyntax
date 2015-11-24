@@ -60,7 +60,7 @@
 	},
 
 	{ "match": "!(.*)",
-	  "name": "comment.ios"
+	  "name": "comment.block.ios"
 	},
 
 	{ "match": "static",
