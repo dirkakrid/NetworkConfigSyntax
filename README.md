@@ -4,6 +4,8 @@ This syntax highlighting package should work with any "Cisco-IOS Like" configura
 
 There's updates that need to be done to all syntax files. I also will need to work on more such as Arista (EOS) or Brocode, Dell (Force-10) and others though most of the Cisco like IOS should work fairly well.
 
+There will also be further updates as to match <VARIABLE NAMES> such as prefix-list names and others.
+
 ### Installing
 
 **Without Git:** Download the zip from github, and extract the files to your Sublime Text "Packages" directory, into a new directory named `Network Config Syntax`. You can find the packages directy by going to Preferences -> Browse packages, within Sublime Text.
