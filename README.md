@@ -28,7 +28,7 @@ If you wish to customize this even further for your own needs navigate to the Ci
 
 first-level keywords have 0 spaces before keyword
 
-![first-level](http://iprdy.net/1OoTXxv)
+![first-level](images/first-level.png)
 
 In the above scenario hostname and policy-map will be highlighted.
 
