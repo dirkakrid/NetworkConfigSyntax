@@ -1,6 +1,8 @@
 # Network Config Syntax Package for Sublime Text
 
-This syntax highlighting package should work with any "Cisco-IOS Like" configuration files. I will be working on updating it to support Juniper and other configuration file formats.
+This syntax highlighting package should work with any "Cisco-IOS Like" configuration files.
+
+There's updates that need to be done to all syntax files. I also will need to work on more such as Arista (EOS) or Brocode, Dell (Force-10) and others though most of the Cisco like IOS should work fairly well.
 
 ### Installing
 
@@ -11,7 +13,7 @@ This syntax highlighting package should work with any "Cisco-IOS Like" configura
     git clone git://github.com/yandy-io/NetworkConfigSyntax.git
 
 ### Highlighting
-Once installed navigate to View->Syntax->Cisco or Junos to apply the Cisco or Junos syntax to the document.
+Once installed navigate to View->Syntax->IOS or Junos to apply the Cisco or Junos syntax to the document.
 
 ##### CISCO
 This syntax definition will automatically be applied to .ios, .cisco, .ioscfg, and .iostxt files.
