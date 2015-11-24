@@ -1,87 +1,87 @@
-{ "name": "Cisco",
-  "scopeName": "text.cisco",
+{ "name": "IOS",
+  "scopeName": "text.ios",
   "fileTypes": ["ios", "ioscfg", "iostxt"],
   "patterns": [
 
   	{ "match": "ip prefix-list",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 	{ "match": "router",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 	{ "match": "redistribute",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 	{ "match": "route-map",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 	{ "match": "address-family",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 	{ "match": "neighbor",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 
 	{ "match": "^\\s*no ",
-	  "name": "invalid.illegal.cisco"
+	  "name": "invalid.illegal.ios"
 	},
 
 	{ "match": "access-list",
-	  "name": "support.function.cisco"
+	  "name": "support.function.ios"
 	},
 
 	{ "match": "key chain",
-	  "name": "support.function.cisco"
+	  "name": "support.function.ios"
 	},
 
 	{ "match": "crypto ",
-	  "name": "string.unquoted.cisco"
+	  "name": "string.unquoted.ios"
 	},
 	{ "match": "any",
-	  "name": "string.unquoted.cisco"
+	  "name": "string.unquoted.ios"
 	},
 	{ "match": "deny ",
-	  "name": "support.constant.cisco"
+	  "name": "support.constant.ios"
 	},
 
 	{ "match": "permit ",
-	  "name": "constant.character.escape.cisco"
+	  "name": "constant.character.escape.ios"
 	},
 	{ "match": "object-group",
-	  "name": "markup.list.cisco"
+	  "name": "markup.list.ios"
 	},
 	{ "match": "object",
-	  "name": "markup.list.cisco"
+	  "name": "markup.list.ios"
 	},
 
 
 	{ "match": "host",
-	  "name": "markup.list.cisco"
+	  "name": "markup.list.ios"
 	},
 
 	{ "match": "!(.*)",
-	  "name": "comment.cisco"
+	  "name": "comment.ios"
 	},
 
 	{ "match": "static",
-	  "name": "constant.numeric.cisco"
+	  "name": "constant.numeric.ios"
 	},
 
 	{ "match": "tunnel-group",
-	  "name": "support.class.cisco"
+	  "name": "support.class.ios"
 	},
 	
 	{ "match": "crypto",
-	  "name": "support.class.cisco"
+	  "name": "support.class.ios"
 	},
 
 	{
 		"match": "http",
-		"name": "support.class.cisco"
+		"name": "support.class.ios"
 	}
 
 	{ "match": "\\d+\\.\\d+\\.\\d+\\.\\d+",
-      "name": "constant.cisco"
+      "name": "constant.ios"
     }
 
   
