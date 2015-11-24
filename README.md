@@ -34,13 +34,13 @@ In the above scenario hostname and policy-map will be highlighted.
 
 second-level configs have 1-2 spaces
 
-![second-level](http://iprdy.net/1OoTOdr)
+![second-level](images/second-level.png)
 
 The colors depend on theme schme used.
 
 third-level configs have 3-4 spaces
 
-![third-level](http://iprdy.net/1OoTT0S)
+![third-level](images/third-level.png)
 
 Again, colors depend on theme being used.
 
