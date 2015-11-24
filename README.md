@@ -46,6 +46,8 @@ third-level configs have 3-4 spaces
 
 Again, colors depend on theme being used.
 
+[DISPLAY_TITLE](images/comment-block.png)
+
 ### CREDITS
 
 This is a Cisco modified version of the original, which is <a href="https://github.com/tunnelsup/sublime-cisco-syntax" target="_blank">here</a>, credit to tunnelsup for the amazing work.
