@@ -46,7 +46,7 @@ third-level configs have 3-4 spaces
 
 Again, colors depend on theme being used.
 
-[DISPLAY_TITLE](images/comment-block.png)
+![comment-block](images/comment-block.png)
 
 ### CREDITS
 
