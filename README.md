@@ -8,14 +8,6 @@ There will also be further updates as to match <VARIABLE NAMES> such as prefix-l
 
 ### Installing
 
-**Easiest method with Package Control**
-
-**Mac OSX**
-<cmd>+<shift>+P and search for Network Config Syntaxt
-
-**Mac OSX**
-<ctrl>+<shift>+P and search for Network Config Syntaxt
-
 **Without Git:** Download the zip from github, and extract the files to your Sublime Text "Packages" directory, into a new directory named `Network Config Syntax`. You can find the packages directy by going to Preferences -> Browse packages, within Sublime Text.
 
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
