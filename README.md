@@ -1,3 +1,9 @@
+# UPDATE
+
+This will no longer be supported.
+
+I'm working on building full blown plugin, code completion for Network Based configs.
+
 # Network Config Syntax Package for Sublime Text
 
 Sublime Text 2/3 Syntax Definitition for Cisco / Junos router/switch/firewall configurations. This package will highlight Cisco configuration and commands within Sublime Text 2/3.
