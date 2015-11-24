@@ -62,12 +62,12 @@
 			<string>string.unquoted.ios</string>
 		</dict>
 
-		<!-- USER DEFINED NAMES -->
+		<!-- USER DEFINED NAMES (first-level GLOBAL) -->
 		<dict>
 			<key>comment</key>
-			<string>matches an ip prefix-list name</string>
+			<string>matches a user defined name for any available global configuration starting with "ip p...."</string>
 			<key>match</key>
-			<string>(?&lt;=ip prefix-list)( [-\w_&lt;&gt;:\./]+)(?=[;]|\b)</string>
+			<string>((?&lt;=ip prefix-list)|(?&lt;=ip policy-list)|(?&lt;=ip port-map))( [-\w_&lt;&gt;:\./]+)(?=[;]|\b)</string>
 			<key>name</key>
 			<string>constant.numeric.integer.long.octal.ios</string>
 		</dict>
