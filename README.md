@@ -27,18 +27,20 @@ If you wish to customize this even further for your own needs navigate to the Ci
 ### Usage
 
 first-level keywords have 0 spaces before keyword
-![](https://photos-4.dropbox.com/t/2/AACLh79CP6WYkf9NlEwDe1uDJ4xILaGN8qcC-qrqd7FfjA/12/2247071/png/32x32/1/_/1/2/Screenshot%202015-11-23%2021.23.17.png/EMni4QEYhtW2QyABIAIoAg/qcwRH18RqUMRuLNWPM-oRyLrJYBubrc8gMREeEu2bjk?size=1600x1200&size_mode=3)
+
+![first-level](http://iprdy.net/1OoTXxv)
 
 In the above scenario hostname and policy-map will be highlighted.
 
 second-level configs have 1-2 spaces
-![](http://iprdy.net/1OoTOdr)
+
+![second-level](http://iprdy.net/1OoTOdr)
 
 The colors depend on theme schme used.
 
 third-level configs have 3-4 spaces
 
-![](http://iprdy.net/1OoTT0S)
+![third-level](http://iprdy.net/1OoTT0S)
 
 Again, colors depend on theme being used.
 
