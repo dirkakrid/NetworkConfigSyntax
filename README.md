@@ -1,4 +1,4 @@
-# Cisco syntax package for Sublime Text
+# Network Config Syntax Package for Sublime Text
 
 This syntax highlighting package should work with any "Cisco-IOS Like" configuration files. I will be working on updating it to support Juniper and other configuration file formats.
 
