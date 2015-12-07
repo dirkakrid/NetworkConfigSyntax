@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ios</string>
+		<string>ioscfg</string>
+		<string>iostxt</string>
+		<string>cisco</string>
+	</array>
+	<key>name</key>
+	<string>Cisco</string>
+	<key>patterns</key>
+	<array>
+
+		<!-- COMMENTS -->
+		<dict>
+			<key>match</key>
+			<string>!(.*)</string>
+			<key>name</key>
+			<string>comment.block.cisco</string>
+		</dict>
+
+		<!-- NO -->
+		<dict>
+			<key>comment</key>
+			<string>matches only the no and highlights in "error" style</string>
+            <key>match</key>
+            <string>^\s*no </string>
+            <key>name</key>
+            <string>invalid.illegal.cisco</string>
+        </dict>
+
+		<!-- FIRST-LEVEL CONFIG -->
+		<dict>
+			<key>match</key>
+			<string>^\w+-?(\w+)?</string>
+			<key>name</key>
+			<string>support.class.cisco</string>
+		</dict>
+
+		<!-- SECOND-LEVEL CONFIG -->
+		<dict>
+			<key>match</key>
+			<string>^\s{1,2}\w+\s+addr?e?s?s?</string>
+			<key>name</key>
+			<string>support.function.cisco</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\s{1,2}\w+-?(\w+)?</string>
+			<key>name</key>
+			<string>support.function.cisco</string>
+		</dict>
+
+		<!-- THIRD-LEVEL CONFIG -->
+		<dict>
+			<key>match</key>
+			<string>^\s{3,4}\w+-?(\w+)?</string>
+			<key>name</key>
+			<string>string.unquoted.cisco</string>
+		</dict>
+
+		<!-- USER DEFINED NAMES (first-level GLOBAL) -->
+		<dict>
+			<key>comment</key>
+			<string>matches a user defined name for any available global configuration starting with "ip p...."</string>
+			<key>match</key>
+			<string>((?&lt;=ip prefix-list)|(?&lt;=ip policy-list)|(?&lt;=ip port-map))( [-\w_&lt;&gt;:\./]+)(?=[;]|\b)</string>
+			<key>name</key>
+			<string>constant.numeric.integer.long.octal.cisco</string>
+		</dict>
+
+		<!-- IP ADDRESSING -->
+        <dict>
+            <key>match</key>
+            <string>(\d{1,3}\.){3}(\d{1,3}){1}</string>
+            <key>name</key>
+            <string>constant.character.escape.cisco</string>
+        </dict>
+		
+	</array>
+
+	<key>scopeName</key>
+	<string>text.cisco</string>
+	<key>uuid</key>
+	<string>f3ba50f0-2bad-48b7-9509-f6d72e353ddb</string>
+</dict>
+</plist>

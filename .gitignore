@@ -1,6 +1,3 @@
-# ignore tmLanguage
-*.tmLanguage
-
 # Ignore vim undo files
 .vim/undo
 
