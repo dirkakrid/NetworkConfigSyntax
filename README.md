@@ -20,6 +20,11 @@ If you'd still like to install independently please visit the original packages 
 
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
 
+- Open repository by
+    - Mac => Preferences > Browse Packages
+    - Linux / Windows
+    - Packages -> Browse Packages
+
     git clone git://github.com/yandy-io/NetworkConfigSyntax.git
 
 ### Highlighting
